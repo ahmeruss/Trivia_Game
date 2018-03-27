@@ -1,0 +1,36 @@
+body {
+	background-image: url("http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/iStock-92166742.jpg?itok=eUk4ZhGt&resize=1100x619");
+	background-size: cover;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+img {
+	float: middle;
+	height: 150px;
+
+}
+
+
+
+h1, h2, h3, .question {
+	color: white;
+	text-align: center;
+}
